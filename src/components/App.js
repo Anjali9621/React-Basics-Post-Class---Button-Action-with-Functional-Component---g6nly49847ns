@@ -4,11 +4,12 @@ import "./../styles/App.css";
 function App() {
   return (
     <div id="main">
-      <button id="click"></button>
-      <p id="para">
-        Hello, I've learnt to use the full-stack evaluation tool. This makes me
-        so happy
-      </p>
+      <button id="click">
+        <p id="para">
+          Hello, I've learnt to use the full-stack evaluation tool. This makes
+          me so happy
+        </p>
+      </button>
     </div>
   );
 }
