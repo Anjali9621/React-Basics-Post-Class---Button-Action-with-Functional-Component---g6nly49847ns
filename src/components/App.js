@@ -6,7 +6,7 @@ function App() {
   return (
     <div id="main">
       <button id="click" onClick={() => setClick(true)}>
-        click{" "}
+        click
       </button>
       {isClicked ? (
         <p id="para">
