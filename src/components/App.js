@@ -5,12 +5,18 @@ function App() {
   const [isClicked, setClick] = useState(false);
   return (
     <div id="main">
-      <button id="click" onClick={() => setClick(true>  </button>
+      <button id="click" onClick={() => setClick(true)}>
+        click{" "}
+      </button>
+      {isClicked ? (
         <p id="para">
+          {" "}
           Hello, I've learnt to use the full-stack evaluation tool. This makes
           me so happy
         </p>
+      ) : (
         <span />
+      )}
     </div>
   );
 }
