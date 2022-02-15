@@ -5,12 +5,16 @@ function App() {
   const [data, setdata] = useState(false);
   return (
     <div id="main">
-      <button id="click" onClick={() => setdata(true)}>
+      <button
+        id="click"
+        onClick={() => {
+          setdata(true);
+        }}
+      >
         click
       </button>
       {data && (
         <p id="para">
-          {" "}
           Hello, I've learnt to use the full-stack evaluation tool. This makes
           me so happy
         </p>
